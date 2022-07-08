@@ -8,18 +8,6 @@ namespace CatWorx.BadgeMaker
 {
     class PeopleFetcher
     {
-        public static bool Proceed(string decision)
-        {
-            if (decision == "y")
-            {
-                return true;
-            } 
-            else
-            {
-                return false;
-            }
-        }
-
         public static List<Employee> GetEmployees()
         {
             // will return a list of strings
@@ -27,21 +15,21 @@ namespace CatWorx.BadgeMaker
             // Collect user values until the value is an empty string
             while (true)
             {
-                Console.WriteLine("Please enter first name (leave empty to exit):");
+                Console.WriteLine("Please enter first name (leave empty to exit): ");
                 // Get a name from the console and assign it to a variable
                 string firstName = Console.ReadLine();
                 if (firstName == "")
                 {
-                    Console.Write("Would you like to automatically generate employees? (y/n)");
+                    Console.Write("Would you like to automatically generate employees? (y/n) ");
                     string genOption = Console.ReadLine();
-                    Proceed(genOption);
+                    Program.Proceed(genOption);
                     break;
                 }
                 Console.Write("Enter last name: ");
                 string lastName = Console.ReadLine();
                 Console.Write("Enter ID: ");
                 int id = Int32.Parse(Console.ReadLine());
-                Console.Write("Enter Photo URL:");
+                Console.Write("Enter Photo URL: ");
                 string photoUrl = Console.ReadLine();
                 Employee currentEmployee = new Employee(firstName, lastName, id, photoUrl);
                 employees.Add(currentEmployee);
