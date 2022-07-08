@@ -8,7 +8,7 @@
 * [Credits](#Credits)
 
 ## Description
-DogWorx Badgemaker is .NET application where users can input information about a team including a link to an image, and a spreadsheet with all employee information is generated as well as a identification badge with the employee's headshot. Users may enter their own employees, or if the user wishes to test the application quickly, automatically generate employees by pulling from an API. The languages, tools, and frameworks used to build this application are C#, .NET Core, Newtonsoft.Json, and .NET graphics manipulation (Bitmap, System.Drawing).
+DogWorx Badgemaker is C#/.NET application where users can input information about a team including a link to an image, and a spreadsheet with all employee information is generated as well as a identification badge with the employee's headshot. Users may enter their own employees, or if the user wishes to test the application quickly, automatically generate employees by pulling from an API. The languages, tools, and frameworks used to build this application are C#, .NET Core, Newtonsoft.Json, and .NET graphics manipulation (Bitmap, System.Drawing).
 
 ## Usage
 Here is a demonstration of how to use this app:
