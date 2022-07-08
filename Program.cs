@@ -10,22 +10,13 @@ namespace CatWorx.BadgeMaker
 {
     class Program
     {
-        static bool y = false;
-
-        public static void Proceed(string decision)
-        {
-            if (decision == "y")
-            {
-                y = true;
-            } 
-        }
         // static implies that the scope of this method is at the class level, not the object level
         // and can thus be invoked without having to first create a new class instance
         // Hence the Main() method can be run as soon as the program runs
         static void Main(string[] args) //Entry Point
         {
             List<Employee> employees = PeopleFetcher.GetEmployees();
-            if (y)
+            if (Util.y)
             {
                 List<Employee> employeesAPI = PeopleFetcher.GetFromAPI();
                 Util.PrintEmployees(employeesAPI);

@@ -8,6 +8,14 @@ namespace CatWorx.BadgeMaker
 {
     class PeopleFetcher
     {
+        static void Proceed(string decision)
+        {
+            if (decision == "y")
+            {
+                Util.y = true;
+            } 
+        }
+
         public static List<Employee> GetEmployees()
         {
             // will return a list of strings
@@ -22,7 +30,7 @@ namespace CatWorx.BadgeMaker
                 {
                     Console.Write("Would you like to automatically generate employees? (y/n) ");
                     string genOption = Console.ReadLine();
-                    Program.Proceed(genOption);
+                    Proceed(genOption);
                     break;
                 }
                 Console.Write("Enter last name: ");

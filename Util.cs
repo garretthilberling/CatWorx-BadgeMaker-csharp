@@ -8,6 +8,8 @@ namespace CatWorx.BadgeMaker
 {
     class Util
     {
+        public static bool y = false;
+
         public static void PrintEmployees(List<Employee> employees)
         {
             for (int i = 0; i < employees.Count; i++)
