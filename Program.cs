@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 
 // namespace is similar to modules in node.js
-namespace CatWorx.BadgeMaker
+namespace DogWorx.BadgeMaker
 // everything inside the curly braces can be interpreted as members of this namespace
 {
     class Program

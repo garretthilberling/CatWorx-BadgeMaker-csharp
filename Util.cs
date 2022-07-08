@@ -4,7 +4,7 @@ using System.Net;
 using System.Drawing;
 using System.Collections.Generic;
 
-namespace CatWorx.BadgeMaker
+namespace DogWorx.BadgeMaker
 {
     class Util
     {

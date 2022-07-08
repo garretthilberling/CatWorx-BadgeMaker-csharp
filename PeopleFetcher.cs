@@ -4,7 +4,7 @@ using System.Net;
 using Newtonsoft.Json.Linq;
 using Newtonsoft.Json;
 
-namespace CatWorx.BadgeMaker
+namespace DogWorx.BadgeMaker
 {
     class PeopleFetcher
     {
