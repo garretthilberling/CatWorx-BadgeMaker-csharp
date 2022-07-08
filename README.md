@@ -1,4 +1,4 @@
-# CatWorx-BadgeMaker-csharp
+# DogWorx-BadgeMaker-csharp
 
 ## Table of Contents
 * [Description](#Description)
