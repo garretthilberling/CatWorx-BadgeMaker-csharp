@@ -10,7 +10,7 @@ namespace CatWorx.BadgeMaker
 {
     class Program
     {
-        public static bool y = false;
+        static bool y = false;
 
         public static void Proceed(string decision)
         {
