@@ -24,7 +24,6 @@ namespace CatWorx.BadgeMaker
         // Hence the Main() method can be run as soon as the program runs
         static void Main(string[] args) //Entry Point
         {
-            //List<Employee> employees = GetEmployees();
             List<Employee> employees = PeopleFetcher.GetEmployees();
             if (y)
             {
