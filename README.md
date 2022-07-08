@@ -14,7 +14,7 @@ DogWorx Badgemaker is C#/.NET application where users can input information abou
 Here is a demonstration of how to use this app:
 
 <div align="center">
-        <img alt="gif demonstration" src="./assets/img/gif_demonstration.gif" width="700" />
+        <img alt="gif demonstration" src="./assets/gif_demonstration.gif" width="700" />
 </div>
 
 
