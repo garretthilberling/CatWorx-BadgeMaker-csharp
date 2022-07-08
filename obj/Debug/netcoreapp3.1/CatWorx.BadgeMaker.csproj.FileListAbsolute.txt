@@ -18,3 +18,4 @@ C:\Users\ghilb\Desktop\projects\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\runti
 C:\Users\ghilb\Desktop\projects\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\System.Drawing.Common.dll
 C:\Users\ghilb\Desktop\projects\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\System.Drawing.Common.dll
 C:\Users\ghilb\Desktop\projects\CatWorx.BadgeMaker\obj\Debug\netcoreapp3.1\CatWorx.BadgeMaker.csproj.CopyComplete
+C:\Users\ghilb\Desktop\projects\CatWorx.BadgeMaker\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
