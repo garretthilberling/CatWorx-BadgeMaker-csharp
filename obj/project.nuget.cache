@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JYHky9iuoE0kJYb+hNvB2IwyMns379kiCZgh4smevtuuXHBljs4OR/FkYZRjLI6S7VZHrlr1kZ+CPWoKZ9Tmfg==",
+  "dgSpecHash": "QGSCeaZURyqPyVtab5lt+BX0T+mZGDSRFITmKrzwJ7Omsz8P45JruRy9Oi0wRfHmcYhzRUqtpNeaBXRIujO+zQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ghilb\\Desktop\\projects\\CatWorx.BadgeMaker\\DogWorx.BadgeMaker.csproj",
+  "projectFilePath": "C:\\Users\\ghilb\\Desktop\\projects\\DogWorx-BadgeMaker-csharp\\DogWorx.BadgeMaker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ghilb\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\ghilb\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

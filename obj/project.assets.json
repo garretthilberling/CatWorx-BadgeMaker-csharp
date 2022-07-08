@@ -165,11 +165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ghilb\\Desktop\\projects\\CatWorx.BadgeMaker\\DogWorx.BadgeMaker.csproj",
+      "projectUniqueName": "C:\\Users\\ghilb\\Desktop\\projects\\DogWorx-BadgeMaker-csharp\\DogWorx.BadgeMaker.csproj",
       "projectName": "DogWorx.BadgeMaker",
-      "projectPath": "C:\\Users\\ghilb\\Desktop\\projects\\CatWorx.BadgeMaker\\DogWorx.BadgeMaker.csproj",
+      "projectPath": "C:\\Users\\ghilb\\Desktop\\projects\\DogWorx-BadgeMaker-csharp\\DogWorx.BadgeMaker.csproj",
       "packagesPath": "C:\\Users\\ghilb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ghilb\\Desktop\\projects\\CatWorx.BadgeMaker\\obj\\",
+      "outputPath": "C:\\Users\\ghilb\\Desktop\\projects\\DogWorx-BadgeMaker-csharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ghilb\\AppData\\Roaming\\NuGet\\NuGet.Config",
