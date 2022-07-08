@@ -16,16 +16,16 @@ namespace DogWorx.BadgeMaker
         static void Main(string[] args) //Entry Point
         {
             List<Employee> employees = PeopleFetcher.GetEmployees();
+            List<Employee> employeesAPI = null;
+            
             if (Util.y)
             {
-                List<Employee> employeesAPI = PeopleFetcher.GetFromAPI();
-                Util.PrintEmployees(employeesAPI);
-                Util.MakeCSV(employeesAPI);
-                Util.MakeBadges(employeesAPI);
+                employeesAPI = PeopleFetcher.GetFromAPI();
             }
-            Util.PrintEmployees(employees);
-            Util.MakeCSV(employees);
-            Util.MakeBadges(employees);
+
+            Util.PrintEmployees(employees, employeesAPI);
+            Util.MakeCSV(employees, employeesAPI);
+            Util.MakeBadges(employees, employeesAPI);
         }
     }
 }

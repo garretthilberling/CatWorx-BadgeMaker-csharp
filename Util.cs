@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Linq;
 using System.Net;
 using System.Drawing;
 using System.Collections.Generic;
@@ -10,8 +11,13 @@ namespace DogWorx.BadgeMaker
     {
         public static bool y = false;
 
-        public static void PrintEmployees(List<Employee> employees)
+        public static void PrintEmployees(List<Employee> employees, List<Employee> employeesAPI)
         {
+            if (employeesAPI != null)
+            {
+                employees.AddRange(employeesAPI);
+            }
+
             for (int i = 0; i < employees.Count; i++)
             {
                 // We want the first argument (argument {0}), the id, to be left-aligned and padded to at least 10 characters, so we enter {0,-10}. 
@@ -23,8 +29,13 @@ namespace DogWorx.BadgeMaker
             }
         }
 
-        public static void MakeCSV(List<Employee> employees)
+        public static void MakeCSV(List<Employee> employees, List<Employee> employeesAPI)
         {
+            if (employeesAPI != null)
+            {
+                employees.AddRange(employeesAPI);
+            }
+
             if (!Directory.Exists("data"))
             {
                 Directory.CreateDirectory("data");
@@ -41,8 +52,13 @@ namespace DogWorx.BadgeMaker
             }
         }
 
-        public static void MakeBadges(List<Employee> employees)
+        public static void MakeBadges(List<Employee> employees, List<Employee> employeesAPI)
         {
+            if (employeesAPI != null)
+            {
+                employees.AddRange(employeesAPI);
+            }
+
             // Layout variables
             int BADGE_WIDTH = 669;
             int BADGE_HEIGHT = 1044;
